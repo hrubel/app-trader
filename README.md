@@ -2,41 +2,7 @@
 Group project for Nashville Software School using PostgreSQL and pgAdmin.
 App Trader - Group Project at NSS
 
-Group Members: Hallie Rubel, Clint Nanney, Mike Zarzana
+Group Members: Heather Sopel, Clint Nanney, Mike Zarzana
 
 
-Your team has been hired by a new company called App Trader to help them explore and gain insights from apps that are made available through the Apple App Store and Android Play Store. App Trader is a broker that purchases the rights to apps from developers in order to market the apps and offer in-app purchase. App developers retain all money from users purchasing the app, and they retain half of the money made from in-app purchases. App Trader will be solely responsible for marketing apps they purchase rights to.
-
-Unfortunately, the data for Apple App Store apps and Android Play Store Apps is located in separate tables with no referential integrity.
-
-Verify that you have two tables:
-- app_store_apps with 7197 rows
-- play_store_apps with 10840 rows
-
-Assumptions
-
-Based on research completed prior to launching App Trader as a company, you can assume the following:
-
-a. App Trader will purchase apps for 10,000 times the price of the app. For apps that are priced from free up to $1.00, the purchase price is $10,000.
-
-b. Apps earn $5000 per month on average from in-app advertising and in-app purchases regardless of the price of the app.
-
-c. App Trader will spend an average of $1000 per month to market an app regardless of the price of the app. If App Trader owns rights to the app in both stores, it can market the app for both stores for a single cost of $1000 per month.
-
-d. For every half point that an app gains in rating, its projected lifespan increases by one year, in other words, an app with a rating of 0 can be expected to be in use for 1 year, an app with a rating of 1.0 can be expected to last 3 years, and an app with a rating of 4.0 can be expected to last 9 years. Ratings should be rounded to the nearest 0.5 to evaluate an app's likely longevity.
-
-e. App Trader would prefer to work with apps that are available in both the App Store and the Play Store since they can market both for the same $1000 per month.
-
-Deliverables
-
-a. Develop some general recommendations as to the price range, genre, content rating, or anything else for apps that the company should target.
-
-b. Develop a Top 10 List of the apps that App Trader should buy next week for its Black Friday debut.
-
-c. Prepare a 5-10 minute presentation for the leadership team of App Trader to inform them of your recommendations.
-
-Group Work & Presentation
-
-Our group collaborated to write SQL queries in order to determine the apps available in both the App Store and the Play Store. We then determined that recommending apps that cost $1 or less and have a rating of 4.5 or greater were the most cost effective apps for App Trader to purchase. Presenting our findings using a power point allowed us to clearly lay out our findings and recommendations.
-
-Working with two datasets without referential integrity was challenging at times and required some creativity to find the best way to get the answers we needed. It was also a great reminder to constantly go back the question asked and assumptions given to us without letting our own biases and thoughts influence our decisions.
+For this porject, team was given data containing two tables without a key to parse through and find trends in. They asked us to make a recommendation for the top 10 mobile apps to invest in, so they could maximize profit from in-app advertising and purchases. We used SQL queries on data from Apple and Android stores, and when we came up with our finding, we created a presentation in Google sheets to visualize our conclusion.
